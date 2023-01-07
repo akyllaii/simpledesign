@@ -1,0 +1,11 @@
+.img{
+  padding: 59px 0 88px;
+  &__row{
+    display: flex;
+    gap: 20px;
+  }
+  &__card{
+    height: 495px;
+    width: calc(33.33333% - 13.33333px);
+  }
+}

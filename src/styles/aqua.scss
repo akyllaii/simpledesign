@@ -1,0 +1,63 @@
+.aqua{
+  padding-bottom: 127px;
+  &__subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    color: #BD7048;
+    margin-bottom: 10px;
+  }
+  &__title{
+    font-weight: 600;
+    font-size: 30px;
+    color: #262626;
+  }
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 40px;
+    &-text{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: rgba(38, 38, 38, 0.7);
+    }
+    &-item{
+      font-weight: 400;
+      font-size: 20px;
+      color: #BD7048;
+    }
+    &-grey{
+      color: rgba(38, 38, 38, 0.7);
+    }
+  }
+  &__price{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(38, 38, 38, 0.7);
+    margin: 10px 0 59px;
+  }
+  &__list{
+    margin: 25px 0 30px;
+  }
+  &__item{
+    font-weight: 500;
+    font-size: 20px;
+    color: #262626;
+    list-style: disc;
+  }
+  &__pdf{
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+    &-title{
+      font-weight: 600;
+      font-size: 15px;
+      color: #020202;
+    }
+    &-subtitle{
+      font-weight: 500;
+      font-size: 20px;
+      color: rgba(38, 38, 38, 0.7);
+    }
+  }
+}

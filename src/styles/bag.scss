@@ -1,0 +1,126 @@
+.bag{
+  &__row{
+    display: flex;
+    column-gap: 80px;
+  }
+  &__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #262626;
+    margin-bottom: 67px;
+    &-orn{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #BD7048;
+      margin: 0 68px 0 23px;
+    }
+  }
+  &__price{
+    display: flex;
+    align-items: center;
+  }
+  &__number{
+    font-weight: 500;
+    font-size: 20px;
+    color: #151515;
+    &-grey{
+      font-weight: 500;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-left: 37px;
+    }
+  }
+  &__list{
+    position: relative;
+    left: 90px;
+  }
+  &__item{
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(38, 38, 38, 0.5);
+    list-style: disc;
+  }
+  &__block{
+    border: 1px solid #BD7048;
+    border-radius: 15px;
+    padding: 35px 0;
+    margin: 63px 0 45px;
+  }
+  &__card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+  }
+  &__form{
+    background: #FFF6F1;
+    border-radius: 15px;
+    padding: 42px 42px 22px;
+    &-title{
+      font-weight: 600;
+      font-size: 20px;
+      color: #262626;
+      margin-bottom: 62px;
+    }
+    &-price{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 27px;
+    }
+    &-input{
+      background: transparent;
+      border: 1px solid #BD7048;
+      border-radius: 100px;
+      width: 550px;
+      padding: 18px 0;
+      margin-top: 20px;
+    }
+    &-btns{
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      margin: 53px 0 24px;
+    }
+    &-brown{
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 15px;
+      color: #FFFFFF;
+      border: none;
+      background: #BD7048;
+      border-radius: 100px;
+      text-align: center;
+      padding: 23px 95px;
+    }
+    &-pink{
+      cursor: pointer;
+      border: none;
+      background: #FFDDCB;
+      border-radius: 100px;
+      text-align: center;
+      padding: 23px 95px;
+      font-weight: 500;
+      font-size: 15px;
+      color: #BD7048;
+    }
+    &-red{
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 15px;
+      color: #FFFFFF;
+      border: none;
+      background: #F14635;
+      border-radius: 100px;
+      text-align: center;
+      padding: 23px 95px;
+    }
+  }
+  &__text{
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(38, 38, 38, 0.5);
+  }
+}

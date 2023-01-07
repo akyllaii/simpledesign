@@ -1,0 +1,36 @@
+.work{
+  padding-bottom: 135px;
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #262626;
+    margin: 47px 0 77px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 127px;
+  }
+  &__card{
+    position: relative;
+    &-title{
+      font-weight: 500;
+      font-size: 20px;
+      color: #262626;
+      line-height: 24px;
+    }
+    &-number{
+      font-weight: 700;
+      font-size: 70px;
+      color: rgba(189, 112, 72, 0.2);
+      position: absolute;
+      top: -15px;
+      left: -25px;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(38, 38, 38, 0.7);
+    }
+  }
+}
