@@ -454,9 +454,20 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-column-gap: 46px;
      -moz-column-gap: 46px;
           column-gap: 46px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.rooms__card {
+  width: calc(33.33333% - 30.66666px);
 }
 .rooms__card-info {
   display: -webkit-box;
@@ -796,13 +807,23 @@ body {
 .plan__title-bg {
   background: #BD7048;
   border-radius: 15px;
-  width: 600px;
+  width: 734px;
   height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.plan__title-bg1 {
+  background: #DB916B;
 }
 .plan__title-text {
   font-weight: 600;
   font-size: 30px;
   color: #FFFFFF;
+  margin-left: 190px;
 }
 .plan__text {
   font-weight: 400;
@@ -1390,4 +1411,84 @@ body {
   font-size: 15px;
   line-height: 18px;
   color: rgba(38, 38, 38, 0.5);
+}
+
+.tender {
+  padding: 633px 0 35px 0;
+  background: url("../images/tender/tenderbg.png") center/cover no-repeat;
+}
+.tender__title {
+  font-weight: 600;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.buy {
+  padding: 63px 0 67px;
+}
+.buy__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(38, 38, 38, 0.7);
+  margin-bottom: 70px;
+}
+.buy__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.buy__price-text {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(38, 38, 38, 0.7);
+}
+.buy__price-black {
+  font-weight: 600;
+  font-size: 30px;
+  color: #2C2C2C;
+}
+.buy__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 44px;
+     -moz-column-gap: 44px;
+          column-gap: 44px;
+}
+.buy__btn {
+  font-weight: 600;
+  font-size: 15px;
+  color: #BD7048;
+  background: transparent;
+  border: none;
+}
+.buy__info {
+  margin: 46px 0 28px;
+}
+
+.watch {
+  padding-bottom: 91px;
+}
+.watch__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #262626;
+  margin-bottom: 54px;
+}
+.watch__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 48px;
+     -moz-column-gap: 48px;
+          column-gap: 48px;
+}
+.watch__text {
+  font-weight: 600;
+  font-size: 20px;
+  color: #353535;
 }

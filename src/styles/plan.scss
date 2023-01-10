@@ -21,13 +21,19 @@
     &-bg{
       background: #BD7048;
       border-radius: 15px;
-      width: 600px;
+      width: 734px;
       height: 90px;
+      display: flex;
+      align-items: center;
+    }
+    &-bg1{
+      background: #DB916B;
     }
     &-text{
       font-weight: 600;
       font-size: 30px;
       color: #FFFFFF;
+      margin-left: 190px;
     }
   }
   &__text{

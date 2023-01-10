@@ -1,0 +1,38 @@
+.buy{
+  padding: 63px 0 67px;
+  &__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(38, 38, 38, 0.7);
+    margin-bottom: 70px;
+  }
+  &__price{
+    display: flex;
+    justify-content: space-between;
+    &-text{
+      font-weight: 500;
+      font-size: 20px;
+      color: rgba(38, 38, 38, 0.7);
+    }
+    &-black{
+      font-weight: 600;
+      font-size: 30px;
+      color: #2C2C2C;
+    }
+  }
+  &__btns{
+    display: flex;
+    column-gap: 44px;
+  }
+  &__btn{
+    font-weight: 600;
+    font-size: 15px;
+    color: #BD7048;
+    background: transparent;
+    border: none;
+  }
+  &__info{
+    margin: 46px 0 28px;
+  }
+}
